@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AsyncDownloadDemo">
+
+
+
+    <Button
+        android:id="@+id/start_load_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始下载"/>
+
+    <TextView
+        android:id="@+id/finish_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <ProgressBar
+        android:id="@+id/processBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"
+        android:visibility="invisible"/>
+
+
+</LinearLayout>
